@@ -1,0 +1,295 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul,
+li,
+ol {
+  list-style: none; }
+
+img,
+fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input,
+a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+body {
+  background: #FCFCFC; }
+
+#detailMain {
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  #detailMain .dMainTit {
+    height: 45px;
+    width: 1200px;
+    line-height: 45px; }
+    #detailMain .dMainTit a {
+      color: #383944;
+      padding: 0 5px; }
+    #detailMain .dMainTit span {
+      color: #383944; }
+  #detailMain .dMainHead {
+    width: 1200px;
+    height: 640px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    padding: 20px; }
+    #detailMain .dMainHead .dMainHead_l {
+      width: 450px;
+      height: 100%;
+      float: left;
+      position: relative;
+      margin-right: 58px; }
+      #detailMain .dMainHead .dMainHead_l .midImg {
+        width: 450px;
+        height: 450px; }
+        #detailMain .dMainHead .dMainHead_l .midImg img {
+          width: 450px;
+          height: 450px; }
+        #detailMain .dMainHead .dMainHead_l .midImg .magnifier {
+          position: absolute;
+          top: 0;
+          box-sizing: border-box;
+          width: 225px;
+          height: 225px;
+          border: 1px solid #aaa;
+          background: red;
+          z-index: 999;
+          background: #fff;
+          opacity: 0.5;
+          cursor: pointer; }
+      #detailMain .dMainHead .dMainHead_l .smallImg {
+        height: 63px;
+        box-sizing: border-box; }
+        #detailMain .dMainHead .dMainHead_l .smallImg span {
+          float: left;
+          width: 14px;
+          height: 100%;
+          cursor: pointer;
+          background: url(../img/goods_ico01.gif) no-repeat center; }
+          #detailMain .dMainHead .dMainHead_l .smallImg span:nth-of-type(2) {
+            background: url(../img/goods_ico02.gif) no-repeat center; }
+        #detailMain .dMainHead .dMainHead_l .smallImg a {
+          width: 60px;
+          height: 60px;
+          float: left;
+          border: 1px solid #efefe8;
+          margin: 0 8px; }
+          #detailMain .dMainHead .dMainHead_l .smallImg a img {
+            width: 60px;
+            height: 60px; }
+          #detailMain .dMainHead .dMainHead_l .smallImg a:hover, #detailMain .dMainHead .dMainHead_l .smallImg a.hover {
+            border: 1px solid #1e76cf; }
+      #detailMain .dMainHead .dMainHead_l .showImg {
+        height: 500px;
+        width: 500px;
+        position: absolute;
+        background: #ffffff;
+        border: 1px solid #CCCCCC;
+        overflow: hidden;
+        left: 500px;
+        top: 0px;
+        z-index: 888; }
+        #detailMain .dMainHead .dMainHead_l .showImg img {
+          width: 1000px;
+          height: 1000px;
+          position: absolute; }
+    #detailMain .dMainHead .dMainHead_r {
+      float: left;
+      height: 100%;
+      width: 650px; }
+      #detailMain .dMainHead .dMainHead_r h2 {
+        color: #333;
+        font-size: 16px;
+        line-height: 26px; }
+      #detailMain .dMainHead .dMainHead_r .shopStyle {
+        color: #ff3333;
+        line-height: 22px; }
+      #detailMain .dMainHead .dMainHead_r .dprice {
+        height: 62px;
+        padding: 15px;
+        background-color: #fafafa;
+        box-sizing: border-box;
+        margin: 10px 0; }
+        #detailMain .dMainHead .dMainHead_r .dprice span {
+          line-height: 40px;
+          float: left;
+          color: #333; }
+        #detailMain .dMainHead .dMainHead_r .dprice em {
+          color: #ff3333;
+          line-height: 32px;
+          font-size: 26px;
+          float: left; }
+        #detailMain .dMainHead .dMainHead_r .dprice strong {
+          font-size: 26px;
+          line-height: 32px;
+          font-weight: bold;
+          color: #ff3333;
+          float: left; }
+        #detailMain .dMainHead .dMainHead_r .dprice a {
+          float: left;
+          line-height: 32px;
+          color: #1e76cf;
+          padding: 0px 10px;
+          display: block;
+          background-color: #fff;
+          border: 1px solid #1e76cf;
+          margin-left: 20px; }
+      #detailMain .dMainHead .dMainHead_r .judge {
+        height: 30px;
+        box-sizing: border-box; }
+        #detailMain .dMainHead .dMainHead_r .judge span {
+          float: left; }
+        #detailMain .dMainHead .dMainHead_r .judge img {
+          float: left;
+          margin: 0 10px; }
+        #detailMain .dMainHead .dMainHead_r .judge a {
+          float: left; }
+      #detailMain .dMainHead .dMainHead_r .store {
+        height: 30px;
+        box-sizing: border-box;
+        line-height: 30px; }
+        #detailMain .dMainHead .dMainHead_r .store a {
+          padding: 3px 8px;
+          border: 1px solid #ff3333;
+          margin-left: 20px; }
+      #detailMain .dMainHead .dMainHead_r .rom {
+        height: 30px;
+        line-height: 20px; }
+      #detailMain .dMainHead .dMainHead_r .color {
+        height: 30px;
+        margin: 10px 0; }
+        #detailMain .dMainHead .dMainHead_r .color a {
+          padding: 3px 8px;
+          border: 1px solid #ddd;
+          margin-left: 20px; }
+          #detailMain .dMainHead .dMainHead_r .color a:nth-of-type(1) {
+            border: 1px solid #ff3333; }
+      #detailMain .dMainHead .dMainHead_r .addr {
+        height: 30px;
+        line-height: 30px;
+        position: relative;
+        margin: 10px 0; }
+        #detailMain .dMainHead .dMainHead_r .addr a {
+          padding: 5px 8px;
+          border: 1px solid #ddd;
+          margin-left: 20px; }
+        #detailMain .dMainHead .dMainHead_r .addr span {
+          position: absolute;
+          height: 0;
+          width: 0;
+          border-top: 4px solid #317EE7;
+          border-right: 4px solid #FCFCFC;
+          border-bottom: 4px solid #FCFCFC;
+          border-left: 4px solid #FCFCFC;
+          right: 0;
+          top: 10px; }
+      #detailMain .dMainHead .dMainHead_r .quantity {
+        height: 30px;
+        line-height: 30px; }
+        #detailMain .dMainHead .dMainHead_r .quantity span {
+          float: left;
+          padding-right: 20px; }
+        #detailMain .dMainHead .dMainHead_r .quantity em {
+          float: left;
+          width: 26px;
+          height: 26px;
+          border: 1px solid #eeeee7;
+          box-sizing: border-box;
+          cursor: pointer;
+          background: url(../img/buy_ico01.png) no-repeat center; }
+          #detailMain .dMainHead .dMainHead_r .quantity em:nth-of-type(2) {
+            background: url(../img/buy_ico02.png) no-repeat center; }
+        #detailMain .dMainHead .dMainHead_r .quantity input {
+          width: 40px;
+          height: 26px;
+          float: left;
+          border: 0;
+          border-top: 1px solid #eeeee7;
+          border-bottom: 1px solid #eeeee7;
+          text-align: center;
+          box-sizing: border-box; }
+      #detailMain .dMainHead .dMainHead_r .buyItem {
+        height: 42px;
+        padding-left: 30px;
+        margin-top: 20px; }
+        #detailMain .dMainHead .dMainHead_r .buyItem a {
+          width: 160px;
+          float: left;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 40px;
+          color: #ff3333;
+          width: 160px;
+          text-align: center;
+          background-color: #FFE8E8;
+          margin-right: 15px;
+          border: 1px solid #ff3333;
+          margin-right: 20px; }
+          #detailMain .dMainHead .dMainHead_r .buyItem a:nth-of-type(2) {
+            color: #fff;
+            background-color: #ff3333;
+            border: 1px solid #ff3333; }
+
+/*# sourceMappingURL=detail.css.map */

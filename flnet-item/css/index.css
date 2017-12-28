@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+#banner {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  #banner .scrollImg {
+    position: relative;
+    height: 450px;
+    width: 100%; }
+    #banner .scrollImg li {
+      height: 450px;
+      position: absolute;
+      width: 100%; }
+      #banner .scrollImg li img {
+        width: 100%;
+        height: 450px; }
+  #banner .navList {
+    bottom: 15px;
+    z-index: 300;
+    position: absolute;
+    width: 100%;
+    height: 18px;
+    text-align: center; }
+    #banner .navList li {
+      margin-right: 10px;
+      display: inline-block;
+      width: 18px;
+      background: url(../img/icon-index.png) no-repeat 0 -464px;
+      height: 18px;
+      cursor: pointer;
+      font-size: 12px;
+      color: #fff;
+      text-align: center;
+      line-height: 18px; }
+    #banner .navList .select {
+      background: url(../img/icon-index.png) no-repeat 0 -482px; }
+  #banner .banner-btn {
+    display: none;
+    width: 1200px;
+    height: 89px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -600px;
+    margin-top: -45px; }
+    #banner .banner-btn a {
+      display: block;
+      width: 50px;
+      height: 89px;
+      position: absolute;
+      z-index: 999;
+      background-image: url(../img/icon-index.png), url(../img/icon-index.png);
+      background-repeat: no-repeat; }
+    #banner .banner-btn .banner-btnpre {
+      left: 0;
+      background-position: 0 -178px; }
+    #banner .banner-btn .banner-btnnext {
+      right: 0;
+      background-position: 0 0px; }
+
+#main {
+  background: #f5f5f5;
+  min-height: 500px;
+  height: auto !important;
+  height: 500px; }
+  #main #home-hot {
+    width: 1200px;
+    height: 230px;
+    margin: 25px auto 20px; }
+    #main #home-hot ul {
+      width: 1210px;
+      height: 230px;
+      margin-left: -10px; }
+      #main #home-hot ul li {
+        width: 393px;
+        height: 220px;
+        float: left;
+        position: relative;
+        margin: 0px 0px 10px 10px;
+        transition: all 0.2s linear; }
+        #main #home-hot ul li:hover {
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); }
+  #main #mainContent .home-floor-item {
+    width: 1200px;
+    height: 810px;
+    margin: 0 auto; }
+    #main #mainContent .home-floor-item h3 {
+      height: 55px;
+      font-size: 25px; }
+    #main #mainContent .home-floor-item li {
+      float: left;
+      display: block;
+      height: 364px;
+      width: 291px;
+      background: #fff;
+      margin-right: 12px;
+      margin-bottom: 12px;
+      transition: all 0.2s; }
+      #main #mainContent .home-floor-item li:hover {
+        box-shadow: 0 10px 15px rgba(0, 0, 0, 0.07);
+        transform: translateY(-2px); }
+      #main #mainContent .home-floor-item li .pic {
+        height: 200px; }
+        #main #mainContent .home-floor-item li .pic img {
+          margin: 0px auto 15px; }
+      #main #mainContent .home-floor-item li .info {
+        text-align: center; }
+        #main #mainContent .home-floor-item li .info strong {
+          display: block;
+          line-height: 20px;
+          font-size: 14px;
+          font-weight: bold; }
+        #main #mainContent .home-floor-item li .info p {
+          color: #a4a4a4;
+          line-height: 16px; }
+          #main #mainContent .home-floor-item li .info p:nth-of-type(2) {
+            color: #312d2d;
+            font-size: 14px;
+            line-height: 41px; }
+      #main #mainContent .home-floor-item li:nth-of-type(1) {
+        height: 364px;
+        width: 594px; }
+        #main #mainContent .home-floor-item li:nth-of-type(1) .info {
+          display: none; }
+      #main #mainContent .home-floor-item li:nth-of-type(3), #main #mainContent .home-floor-item li:nth-last-of-type(1) {
+        margin-right: 0; }
+  #main .diff {
+    height: 115px;
+    width: 1200px;
+    margin: 0 auto;
+    display: none; }
+
+/*# sourceMappingURL=index.css.map */

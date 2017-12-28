@@ -1,0 +1,27 @@
+{
+	"list":[
+		{
+		"title":"手机",
+		"listItem":[{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"}]
+		},
+		{
+		"title":"手机配件",
+		"listItem":[{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"},
+					{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"},
+					{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"}]
+		},
+		{
+		"title":"时尚影音",
+		"listItem":[{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"},
+					{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"}]
+		},
+		{
+		"title":"数码配件",
+		"listItem":[{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"}]
+		},
+		{
+		"title":"车载导航",
+		"listItem":[{"link":"aa","con":"智能手机"},{"link":"aa","con":"智能手机"}]
+		}
+	]
+}

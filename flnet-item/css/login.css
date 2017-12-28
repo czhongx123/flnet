@@ -1,0 +1,177 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+header {
+  height: 83px;
+  background: #fcfcfc;
+  box-sizing: border-box;
+  padding: 10px 0; }
+  header #logo {
+    padding-left: 144px; }
+
+#logo_main {
+  height: 491px;
+  box-sizing: border-box;
+  padding: 28px 0;
+  background: #010834;
+  position: relative; }
+  #logo_main .lm_pic {
+    width: 1200px;
+    height: 435px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: absolute; }
+    #logo_main .lm_pic a {
+      display: block;
+      height: 100%;
+      width: 100%; }
+  #logo_main .login_box {
+    height: 435px;
+    width: 375px;
+    box-sizing: border-box;
+    background: #fff;
+    position: absolute;
+    margin-right: -502px;
+    font-size: 14px;
+    right: 50%;
+    padding: 24px 34px 0; }
+    #logo_main .login_box .login_tit {
+      height: 29px;
+      box-sizing: border-box;
+      font-size: 16px;
+      line-height: 29px;
+      font-weight: bold; }
+      #logo_main .login_box .login_tit span {
+        float: left;
+        color: #202020; }
+      #logo_main .login_box .login_tit a {
+        float: right;
+        color: #008cd6; }
+    #logo_main .login_box .error {
+      height: 23px;
+      margin-bottom: 3px; }
+      #logo_main .login_box .error p {
+        line-height: 23px;
+        text-indent: 29px;
+        color: #ff0000;
+        background: #f0f0f0 url(../img/icon_error.png) no-repeat 11px center;
+        margin-bottom: 3px;
+        height: 100%;
+        width: 100%; }
+    #logo_main .login_box #login_name, #logo_main .login_box #login_psd {
+      height: 40px;
+      width: 100%;
+      text-indent: 10px;
+      border: 1px solid #d9d9d9;
+      line-height: 40px;
+      margin-bottom: 16px;
+      outline: none;
+      color: #9b9b9b; }
+    #logo_main .login_box #login_name {
+      background: url(../img/icon_login.png) no-repeat 278px 0; }
+    #logo_main .login_box #login_psd {
+      background: url(../img/icon_login.png) no-repeat 278px -40px; }
+    #logo_main .login_box .codeItem {
+      height: 42px;
+      overflow: hidden;
+      margin-bottom: 10px; }
+      #logo_main .login_box .codeItem #code {
+        height: 42px;
+        box-sizing: border-box;
+        border: 1px solid #d9d9d9;
+        line-height: 42px;
+        color: #9b9b9b;
+        text-indent: 10px;
+        float: left;
+        width: 138px; }
+      #logo_main .login_box .codeItem .getCode {
+        width: 150px;
+        float: right;
+        margin-bottom: 16px; }
+        #logo_main .login_box .codeItem .getCode .codeShare {
+          height: 42px;
+          display: block;
+          width: 86px;
+          box-sizing: border-box;
+          float: left;
+          border: 1px solid #d9d9d9; }
+          #logo_main .login_box .codeItem .getCode .codeShare img {
+            height: 42px;
+            width: 86px; }
+        #logo_main .login_box .codeItem .getCode .changeCode {
+          float: right;
+          line-height: 42px;
+          color: #070707; }
+    #logo_main .login_box .loginhelp {
+      height: 36px;
+      position: relative;
+      color: #333; }
+      #logo_main .login_box .loginhelp label {
+        display: inline-block;
+        margin-left: 24px; }
+      #logo_main .login_box .loginhelp #autoLogin {
+        position: absolute;
+        margin-top: 0px;
+        top: 3px; }
+      #logo_main .login_box .loginhelp a {
+        float: right; }
+    #logo_main .login_box .login_submit {
+      margin-bottom: 20px;
+      width: 100%; }
+      #logo_main .login_box .login_submit a {
+        display: block;
+        height: 43px;
+        width: 100%;
+        text-align: center;
+        line-height: 43px;
+        color: #fff;
+        font-size: 16px;
+        background: #0286CB; }
+    #logo_main .login_box .login_other p {
+      height: 24px;
+      color: #9b9b9b; }
+    #logo_main .login_box .login_other a {
+      float: left;
+      width: 41px;
+      height: 41px;
+      margin-right: 10px; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body, ul, li, dl, dt, dd, p, ol, h1, h2, h3, h4, h5, h6, form, img, table, fieldset, legend, figure, figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul, li, ol {
+  list-style: none; }
+
+img, fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input, a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+header {
+  height: 83px;
+  background: #fcfcfc;
+  box-sizing: border-box;
+  padding: 10px 0; }
+  header #logo {
+    padding-left: 144px; }
+
+#car_main ul {
+  padding: 20px; }
+  #car_main ul li {
+    padding: 20px 0;
+    border-bottom: 1px dashed #ddd; }
+#car_main img {
+  height: 50px; }
+#car_main span {
+  padding: 0 20px; }
+#car_main input {
+  width: 60px;
+  text-align: center;
+  margin: 0 20px; }
+#car_main em {
+  padding: 10px;
+  background: #cecece;
+  font-size: 16px;
+  cursor: pointer; }
+#car_main strong {
+  color: #FF0000;
+  cursor: pointer;
+  padding: 5px 10px; }
+#car_main .totolPrice {
+  width: 200px;
+  margin: 20px auto;
+  padding: 10px 0;
+  overflow: hidden;
+  font-size: 14px; }
+  #car_main .totolPrice p {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #0000FF;
+    float: left;
+    margin: 10px 0;
+    padding: 10px 5px; }
+    #car_main .totolPrice p:nth-of-type(1) {
+      width: 30px;
+      color: #fff; }
+    #car_main .totolPrice p:nth-of-type(2) {
+      color: #FF0000;
+      background: #cecece; }
+
+/*# sourceMappingURL=cart.css.map */

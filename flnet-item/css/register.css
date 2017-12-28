@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul,
+li,
+ol {
+  list-style: none; }
+
+img,
+fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input,
+a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+body {
+  background: #f8f8f8; }
+
+header {
+  width: 990px;
+  height: 87px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 10px 0; }
+  header #logo {
+    float: left; }
+  header p {
+    float: left;
+    height: 38px;
+    margin-top: 15px;
+    margin-left: 11px;
+    padding-left: 16px;
+    border-left: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 20px;
+    color: #777;
+    line-height: 38px; }
+
+#register_form {
+  width: 990px;
+  background: #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 25px 0;
+  color: #333;
+  font-size: 14px; }
+  #register_form .register_forml {
+    float: left;
+    width: 560px;
+    border-right: 1px solid #e7e7e7; }
+    #register_form .register_forml .register_style {
+      height: 56px;
+      margin-bottom: 5px;
+      width: 402px;
+      float: right;
+      line-height: 56px;
+      font-size: 14px; }
+      #register_form .register_forml .register_style .phone_register,
+      #register_form .register_forml .register_style .email_register {
+        display: inline-block; }
+        #register_form .register_forml .register_style .phone_register input,
+        #register_form .register_forml .register_style .email_register input {
+          display: inline-block; }
+        #register_form .register_forml .register_style .phone_register label,
+        #register_form .register_forml .register_style .email_register label {
+          display: inline-block; }
+    #register_form .register_forml .byPhone label {
+      color: #737272;
+      float: left;
+      text-align: right;
+      padding-right: 10px;
+      width: 158px;
+      height: 40px;
+      box-sizing: border-box;
+      line-height: 40px; }
+    #register_form .register_forml .byPhone p {
+      height: 34px;
+      width: 402px;
+      line-height: 34px;
+      float: right;
+      color: #f02118;
+      font-weight: bold; }
+    #register_form .register_forml .byPhone input {
+      height: 40px;
+      width: 282px;
+      box-sizing: border-box;
+      border: 0;
+      text-indent: 5px;
+      float: left;
+      box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); }
+    #register_form .register_forml .byPhone .telItem,
+    #register_form .register_forml .byPhone .codeItem,
+    #register_form .register_forml .byPhone .psdItem,
+    #register_form .register_forml .byPhone .cpsdItem {
+      height: 74px;
+      box-sizing: border-box;
+      float: right; }
+    #register_form .register_forml .byPhone .codeItem input {
+      width: 108px; }
+    #register_form .register_forml .byPhone .codeItem .codeImg {
+      float: left;
+      width: 94px;
+      height: 38px;
+      border: 1px solid #ddd;
+      margin-left: 10px; }
+      #register_form .register_forml .byPhone .codeItem .codeImg img {
+        height: 100%;
+        width: 100%; }
+    #register_form .register_forml .byPhone .codeItem a {
+      width: 75px;
+      height: 40px;
+      float: left;
+      text-align: right;
+      color: #bbb;
+      background: url(../img/refush.png) no-repeat 10px center;
+      line-height: 40px;
+      font-size: 14px;
+      color: #bbb; }
+    #register_form .register_forml .byPhone .mcodeItem input {
+      width: 149px; }
+    #register_form .register_forml .byPhone .mcodeItem a {
+      float: left;
+      width: 121px;
+      height: 38px;
+      border: 1px solid #ddd;
+      background: #f4f4f4;
+      margin-left: 10px;
+      text-align: center;
+      line-height: 38px;
+      color: #333; }
+    #register_form .register_forml .byPhone #tel {
+      background: url(../img/icon_logisn.png) no-repeat 260px 8px; }
+    #register_form .register_forml .byPhone .psdItem input,
+    #register_form .register_forml .byPhone .cpsdItem input {
+      background: url(../img/lock.jpg) no-repeat right 8px; }
+    #register_form .register_forml .byEmail {
+      display: none; }
+      #register_form .register_forml .byEmail div {
+        height: 74px;
+        box-sizing: border-box;
+        float: right; }
+        #register_form .register_forml .byEmail div label {
+          color: #737272;
+          float: left;
+          text-align: right;
+          padding-right: 10px;
+          width: 158px;
+          height: 40px;
+          box-sizing: border-box;
+          line-height: 40px; }
+        #register_form .register_forml .byEmail div p {
+          height: 34px;
+          width: 402px;
+          line-height: 34px;
+          float: right;
+          color: #f02118;
+          font-weight: bold; }
+        #register_form .register_forml .byEmail div input {
+          height: 40px;
+          width: 282px;
+          box-sizing: border-box;
+          border: 0;
+          text-indent: 5px;
+          float: left;
+          box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); }
+        #register_form .register_forml .byEmail div #emL {
+          background: url(../img/email.jpg) no-repeat right 8px; }
+      #register_form .register_forml .byEmail .psdItemE input,
+      #register_form .register_forml .byEmail .cpsdItemE input {
+        background: url(../img/lock.jpg) no-repeat right 8px; }
+    #register_form .register_forml .register_confirm {
+      float: right; }
+      #register_form .register_forml .register_confirm .register_accept {
+        height: 28px;
+        float: left;
+        margin-bottom: 14px;
+        line-height: 28px;
+        margin-left: 157px;
+        font-size: 12px;
+        color: #333;
+        text-align: center; }
+        #register_form .register_forml .register_confirm .register_accept input {
+          top: 2px;
+          position: relative; }
+        #register_form .register_forml .register_confirm .register_accept a {
+          color: #0082f0;
+          padding-left: 8px; }
+      #register_form .register_forml .register_confirm .register_submit {
+        width: 292px;
+        height: 40px;
+        line-height: 40px;
+        float: right;
+        background: #ff9700;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 3px;
+        margin-right: 110px; }
+  #register_form .register_formr {
+    float: right;
+    width: 429px;
+    text-align: center; }
+    #register_form .register_formr a {
+      color: #0082f0;
+      margin: 0 5px;
+      font-size: 14px;
+      font-weight: bold; }
+
+/*# sourceMappingURL=register.css.map */

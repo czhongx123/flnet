@@ -1,0 +1,86 @@
+{
+	"list":[
+		{
+			"productID": "xp1",
+			"title":"夏普",
+			"src":"http://image.newflnet.com/BannerImages/b60-552.jpg?dt=Fri Sep 22 2017 13:01:24 GMT+0800 (中国标准时间)",
+			"item":" 支持分期",
+			"price":"9999",
+			"link":"http://www.flnet.com/item-23300.html"
+		},
+		{
+			"productID": "xp2",
+			"title":"夏普四十寸平板电视 日本原装面板",
+			"src":"http://image.newflnet.com/BannerImages/b60-554.jpg?dt=Wed Dec 13 2017 15:57:34 GMT+0800 (中国标准时间)",
+			"item":"LCD-40SF466A 支持分期",
+			"price":"1799",
+			"link":"http://www.flnet.com/item-20032.html"
+		},
+		{
+			"productID": "xp3",
+			"title":"夏普  45英寸平板电视",
+			"src":"http://image.newflnet.com/BannerImages/b60-553.jpg?dt=Wed Dec 13 2017 15:54:32 GMT+0800 (中国标准时间)",
+			"item":"LCD-45SF470A  送12月影视会员",
+			"price":"2299",
+			"link":"http://www.flnet.com/item-24299.html"
+		},
+		{
+			"productID": "xp4",
+			"title":"夏普 50英寸 智能液晶电视",
+			"src":"http://image.newflnet.com/BannerImages/b60-555.jpg?dt=Wed Dec 13 2017 15:54:21 GMT+0800 (中国标准时间)",
+			"item":"LCD-50SU575A  你的新视界",
+			"price":"2299",
+			"link":"http://www.flnet.com/item-24307.html"
+		},
+		{
+			"productID": "xp5",
+			"title":"夏普 60英寸窄细边框",
+			"src":"http://image.newflnet.com/BannerImages/b60-556.jpg?dt=Wed Dec 13 2017 16:03:03 GMT+0800 (中国标准时间)",
+			"item":"LCD-60SU470A 日本原装进口面板",
+			"price":"2299",
+			"link":"http://www.flnet.com/item-24313.html"
+		},
+		{
+			"productID": "xp6",
+			"title":"夏普70英寸4K超高清液晶平板电视",
+			"src":"http://image.newflnet.com/BannerImages/b60-557.jpg?dt=Wed Dec 13 2017 16:04:17 GMT+0800 (中国标准时间)",
+			"item":"LCD-70SU575A 你的家庭影院",
+			"price":"8399",
+			"link":"http://www.flnet.com/item-24494.html"
+		},
+		{
+			"productID": "xp7",
+			"title":"夏普 70英寸 日本进口面板",
+			"src":"img/home-floor-item-pic7.jpg",
+			"item":"LCD-70SU665A 超薄超细边框",
+			"price":"6699",
+			"link":"http://www.flnet.com/item-18854.html"
+		}
+	],
+	
+	"classroom":[{"class":"夏普电视"},
+				{"class":"手机&智能硬件"},
+				{"class":"电脑&小家电"},
+				{"class":"夏普净化器"},
+				{"class":"夏普家电"}
+		
+		
+	],
+	"hot":[
+		{
+			"productID": "hot1",
+			"src":"http://image.newflnet.com/BannerImages/b6-541.jpg?dt=Thu Dec 21 2017 18:38:37 GMT+0800 (中国标准时间)",
+			"link":"http://www.flnet.com/item-23082.html"
+		},
+		{
+			"productID": "hot2",
+			"src":"http://image.newflnet.com/BannerImages/b6-542.jpg?dt=Thu Dec 21 2017 18:39:01 GMT+0800 (中国标准时间)",
+			"link":"http://www.flnet.com/item-23077.html"
+		},
+		{
+			"productID": "hot3",
+			"src":"http://image.newflnet.com/BannerImages/b6-543.jpg?dt=Thu Dec 21 2017 20:12:10 GMT+0800 (中国标准时间)",
+			"link":"http://www.flnet.com/item-23103.html"
+		}
+	]
+}

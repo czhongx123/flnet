@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/*------------------------样式重置-------------------------------*/
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+img,
+table,
+fieldset,
+legend,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0; }
+
+ul,
+li,
+ol {
+  list-style: none; }
+
+img,
+fieldset {
+  border: 0; }
+
+img {
+  display: block; }
+
+a {
+  text-decoration: none;
+  color: #333; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 100; }
+
+body {
+  font-family: "微软雅黑"; }
+
+input,
+a {
+  outline: none; }
+
+em {
+  font-style: normal; }
+
+mark {
+  background: 0; }
+
+strong {
+  font-weight: 100; }
+
+body {
+  font-size: 12px; }
+
+body {
+  background: #FCFCFC; }
+
+#listMain {
+  min-height: 500px;
+  height: auto !important;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden; }
+  #listMain .listMainTop {
+    line-height: 45px;
+    height: 45px;
+    padding-left: 10px;
+    width: 1200px;
+    box-sizing: border-box;
+    float: left;
+    color: #383944; }
+    #listMain .listMainTop a {
+      padding: 0 7px; }
+  #listMain .lMainl {
+    width: 210px;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px; }
+    #listMain .lMainl .lMain_menu {
+      border: 1px solid #dddddd;
+      border-top: 2px solid #1e76cf; }
+      #listMain .lMainl .lMain_menu p {
+        height: 35px;
+        line-height: 35px;
+        color: #333;
+        padding-left: 20px; }
+      #listMain .lMainl .lMain_menu .lMain_menuList dl {
+        background: #fff; }
+        #listMain .lMainl .lMain_menu .lMain_menuList dl dt {
+          height: 35px;
+          border-top: 1px solid #efefe8;
+          line-height: 35px;
+          text-indent: 30px;
+          font-weight: bold;
+          color: #333;
+          cursor: pointer; }
+        #listMain .lMainl .lMain_menu .lMain_menuList dl dd {
+          padding-top: 12px;
+          background-color: #fafafa;
+          width: 100%;
+          box-sizing: border-box;
+          overflow: hidden; }
+          #listMain .lMainl .lMain_menu .lMain_menuList dl dd a {
+            display: block;
+            text-indent: 42px;
+            padding-bottom: 12px;
+            color: #666; }
+            #listMain .lMainl .lMain_menu .lMain_menuList dl dd a:hover {
+              color: #1e76cf; }
+    #listMain .lMainl .list_hot {
+      height: 35px;
+      border: 1px solid #dddddd;
+      background: #fff;
+      line-height: 35px;
+      text-indent: 22px;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 15px 0; }
+    #listMain .lMainl .lastLook {
+      border: 1px solid #dddddd;
+      background: #fff;
+      width: 100%; }
+      #listMain .lMainl .lastLook .clear {
+        height: 35px;
+        line-height: 35px;
+        text-indent: 22px;
+        font-size: 14px;
+        font-weight: bold;
+        border-bottom: 1px solid #efefe8; }
+        #listMain .lMainl .lastLook .clear a {
+          display: none; }
+      #listMain .lMainl .lastLook .record {
+        height: 40px;
+        line-height: 40px;
+        text-indent: 30px;
+        font-size: 14px;
+        color: #333; }
+  #listMain .lMainr {
+    width: 970px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden; }
+    #listMain .lMainr .lMainr_tit {
+      height: 47px;
+      box-sizing: border-box;
+      padding-top: 9px; }
+      #listMain .lMainr .lMainr_tit h3 {
+        color: #333;
+        float: left;
+        margin-right: 20px;
+        font-size: 20px; }
+      #listMain .lMainr .lMainr_tit p {
+        float: left;
+        padding-top: 5px;
+        color: #999;
+        font-size: 12px; }
+        #listMain .lMainr .lMainr_tit p span {
+          color: #fe336b;
+          padding: 0 3px; }
+    #listMain .lMainr .lMainr_head {
+      height: 83px;
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid #ddd;
+      overflow: hidden; }
+      #listMain .lMainr .lMainr_head .lMainr_heada {
+        overflow: hidden;
+        height: 40px;
+        border-bottom: 1px solid #ddd;
+        background: #f1f1f1;
+        line-height: 40px;
+        color: #666; }
+        #listMain .lMainr .lMainr_head .lMainr_heada ul {
+          width: 400px;
+          float: left;
+          height: 100%;
+          padding-left: 20px; }
+          #listMain .lMainr .lMainr_head .lMainr_heada ul li {
+            float: left;
+            width: 40px;
+            margin-right: 20px;
+            background: url(../img/list_ico03.png) no-repeat right center; }
+            #listMain .lMainr .lMainr_head .lMainr_heada ul li a:hover {
+              color: #1e76cf; }
+        #listMain .lMainr .lMainr_head .lMainr_heada dl {
+          width: 259px;
+          float: right;
+          height: 100%; }
+          #listMain .lMainr .lMainr_head .lMainr_heada dl dt {
+            float: left; }
+            #listMain .lMainr .lMainr_head .lMainr_heada dl dt span {
+              padding: 0 3px;
+              color: #ff3333; }
+          #listMain .lMainr .lMainr_head .lMainr_heada dl dd {
+            float: right;
+            padding-right: 20px; }
+            #listMain .lMainr .lMainr_head .lMainr_heada dl dd a {
+              border: 1px solid #ddd;
+              padding: 3px 7px; }
+            #listMain .lMainr .lMainr_head .lMainr_heada dl dd span {
+              padding-left: 16px;
+              color: #ff3333; }
+            #listMain .lMainr .lMainr_head .lMainr_heada dl dd em {
+              padding-right: 16px; }
+      #listMain .lMainr .lMainr_head .lMainr_sendArea {
+        overflow: hidden;
+        background: #f8f8f8;
+        height: 41px;
+        color: #3b3c3e;
+        line-height: 42px; }
+        #listMain .lMainr .lMainr_head .lMainr_sendArea a {
+          height: 100%;
+          padding: 0 11px;
+          color: #3b3c3e;
+          float: left; }
+        #listMain .lMainr .lMainr_head .lMainr_sendArea .area {
+          float: left;
+          border: 1px solid #bfbfbf;
+          color: #3b3c3e;
+          background: #fff;
+          height: 22px;
+          margin-top: 10px;
+          line-height: 22px;
+          padding: 0 15px;
+          cursor: pointer;
+          position: relative; }
+          #listMain .lMainr .lMainr_head .lMainr_sendArea .area span {
+            display: block;
+            position: absolute;
+            height: 0;
+            width: 0;
+            border-bottom: 4px solid #fff;
+            border-top: 4px solid #317EE7;
+            border-left: 4px solid #fff;
+            border-right: 4px solid #fff;
+            right: 5px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            z-index: 900; }
+    #listMain .lMainr .lMainr_list {
+      overflow: hidden;
+      float: left;
+      padding-top: 10px; }
+      #listMain .lMainr .lMainr_list dl {
+        float: left;
+        width: 229px;
+        margin: 0px 15px 15px 0px;
+        padding: 19px 0px 0px 0px;
+        display: inline;
+        background-color: #fff;
+        border: 1px solid #dddddd;
+        position: relative;
+        z-index: 0; }
+        #listMain .lMainr .lMainr_list dl:nth-of-type(4n) {
+          margin-right: 0; }
+        #listMain .lMainr .lMainr_list dl:hover {
+          border: 1px solid #ff6600;
+          box-shadow: #999 0 0 5px; }
+        #listMain .lMainr .lMainr_list dl dt a img {
+          width: 191px;
+          height: 191px; }
+        #listMain .lMainr .lMainr_list dl dd p:nth-of-type(1) a {
+          width: 191px;
+          height: 36px;
+          line-height: 18px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #333;
+          display: block;
+          overflow: hidden;
+          margin: 10px 0px 0px 19px; }
+        #listMain .lMainr .lMainr_list dl dd p:nth-of-type(2) {
+          height: 13px;
+          line-height: 13px;
+          color: #ff9766;
+          padding: 7px 19px 0px 19px;
+          overflow: hidden; }
+        #listMain .lMainr .lMainr_list dl dd p:nth-of-type(3) {
+          color: #ff3333;
+          font-size: 14px;
+          font-weight: 800px;
+          width: 191px;
+          height: 36px;
+          line-height: 36px;
+          margin-left: 19px; }
+        #listMain .lMainr .lMainr_list dl dd p:nth-of-type(4) {
+          font-size: 12px;
+          width: 100%;
+          height: 29px;
+          border-top: 1px solid #eeeee7;
+          line-height: 29px; }
+          #listMain .lMainr .lMainr_list dl dd p:nth-of-type(4) span {
+            float: left;
+            height: 100%;
+            width: 28px;
+            cursor: pointer;
+            background: url(../img/buy_ico01.png) no-repeat center; }
+            #listMain .lMainr .lMainr_list dl dd p:nth-of-type(4) span:nth-of-type(2) {
+              background: url(../img/buy_ico02.png) no-repeat center; }
+          #listMain .lMainr .lMainr_list dl dd p:nth-of-type(4) input {
+            border: 0;
+            float: left;
+            width: 50px;
+            text-align: center;
+            color: #666;
+            line-height: 29px;
+            border-left: 1px solid #eeeee7;
+            border-right: 1px solid #eeeee7; }
+          #listMain .lMainr .lMainr_list dl dd p:nth-of-type(4) a {
+            height: 100%;
+            float: left;
+            background: #ff3333;
+            color: #fff;
+            text-align: center;
+            line-height: 29px;
+            width: 120px; }
+
+/*# sourceMappingURL=a.css.map */

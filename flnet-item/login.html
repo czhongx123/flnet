@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>富连网-用户登录</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/common.css"/>
+	<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/commom.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/template.js" type="text/javascript" charset="utf-8"></script>-->
+	<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	<link rel="shortcut icon" href="http://www.flnet.com/favicon.ico" />
+	<body>
+		<!----------------------top-------------------------->
+		<div id="top">
+			<div class="top_login">
+				<p>您好，欢迎来到富连网！</p>
+				<a href="login.html" target="_blank">登录</a>|
+				<a href="register.html" target="_blank">注册</a>
+			</div>
+			<div class="send_adress">
+				<a href="">送至:<span>上海市</span></a>
+				
+				<div class="address">
+					<ul>
+		
+						
+						
+						
+					</ul>
+				</div>
+			</div>
+			<div class="top_home">
+				<a href="index.html">网站首页</a>
+			</div>
+			<div class="share">
+				
+				<a href="javascript:;">扫一扫分享</a>
+				<dl>
+					<dt><img src="img/share.png" alt="" /></dt>
+					<dd>扫一扫分享</dd>
+				</dl>
+			</div>
+			<div class="mobileCustomer">
+				
+				<a href="javascript:;">手机客户端</a>
+				<dl>
+					<dt><img src="img/App_QR_Code.png" alt="" /></dt>
+					<dd>扫描下载客户端</dd>
+				</dl>
+			</div>
+			<div class="service">
+				<ul>
+					<li >
+						<a href="" class="service-tit">客户服务</a>
+						<ul class="service-list">
+							<li>
+								<a href="">帮助中心</a>
+							</li>
+							<li>
+								<a href="">售后服务</a>
+							</li>
+							<li>
+								<a href="">投诉中心</a>
+							</li>
+							<li>
+								<a href="">客户建议</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="line-service">
+				<a href="">在线客服</a>
+			</div>
+			<div class="web-map">
+				<ul>
+					<li class="web-maptit">
+						<a href="">网站地图</a>
+					</li>
+					<div class="map-list">
+						<ul class="map-list1">
+							<li>行业频道</li>
+							<li><a href="">手机、智能硬件</a></li>
+							<li><a href="">电脑、平板</a></li>
+							<li><a href="">外设、办公、酷新奇</a></li>
+							<li><a href="">家用电器</a></li>
+						</ul>
+						<ul class="map-list2">
+							<li>品牌专区</li>
+							<li><a href="">苹果</a><a href="">三星</a></li>
+							
+							<li><a href="">富可视</a><a href="">华硕</a></li>
+						
+							<li><a href="">华为</a><a href="">小米</a></li>
+							
+							<li><a href="">热搜商品</a><a href="">更多</a></li>
+							
+						</ul>
+						<ul class="map-list3">
+							<li>主题市场</li>
+							<li><a href="">苹果专区</a></li>
+							<li><a href="">消费者价值中心</a></li>
+							<li><a href="">酷新奇</a></li>
+							
+						</ul>
+						<ul class="map-list4">
+							<li>服务指南</li>
+							<li><a href="">购物指南</a></li>
+							<li><a href="">特色服务</a></li>
+							<li><a href="">售后服务</a></li>
+							<li><a href="">联系客服</a></li>
+							
+						</ul>
+						<ul class="map-list5">
+							<li>更多精选</li>
+
+						</ul>
+					</div>
+				</ul>
+			</div>
+
+		</div>
+		<!----------------------右侧悬浮-------------------------->
+		<div id="right-div">
+			<a href="javascript:;" class="totop"></a>
+			<a href="" class="bycar"></a>
+			<a href="javascript:;" class="barcode">
+				<div class="barcodeImg">
+					<dl>
+						<dt><img src="img/App_QR_Code.png"/></dt>
+						<dd>扫描下载客户端</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/code_blog.png"/></dt>
+						<dd>富连网博客 二维码</dd>
+					</dl>
+					<dl>
+						<dt><img src="img/code_weixin.png"/></dt>
+						<dd>富连网微信 二维码</dd>
+					</dl>
+				</div>	
+			</a>
+			<a href="" class="superman"></a>
+		</div>
+		
+		<!--login-header----------------------------------->
+		<header>
+			<div id="logo">
+				<a href="index.html"><img src="img/logo.png"/></a>
+			</div>
+		</header>
+		<!--login-main----------------------------------->
+		<div id="logo_main">
+			<div class="lm_pic">
+				<a href="http://www.flnet.com/christmas.jsp?cty=138">
+					<img src="http://newimg.flnet.com:80/Pic/201712/r8pdxg6ddb9e707655407385b5f485e40e0906.jpg" alt="" />
+				</a>
+
+			</div>
+			
+			<div class="login_box">
+				<form action="" class="login_form">
+					<p class="login_tit"><span>会员登录</span><a href="register.html" target="_blank">快速注册</a></p>
+					<div class="error"><p>请填写用户名</p></div>
+					<input type="text" name="" id="login_name" placeholder="手机/邮箱" autofocus="autofocus" />
+					<input type="password" name="" id="login_psd" placeholder="密码" />
+					<div class="codeItem">
+						<input type="text" name="" id="code" placeholder="验证码" />
+						<div class="getCode">
+							<a href="javascript:;" class="codeShare">
+								<img src="http://www.flnet.com/Account/GetVryImgGen?"/>
+							</a>
+							<a href="avascript:;" class="changeCode">换一张</a>
+						</div>
+					
+					</div>
+					<div class="loginhelp">
+						<input type="checkbox" name="" id="autoLogin" checked="checked"/>
+						<label for="autoLogin">自动登录</label>
+						<a href="">忘记密码了？</a>
+					</div>
+					<div class="login_submit">
+						<a href="javascript:;" class="submitBtn">登录</a>
+					</div>
+					
+					<div class="login_other">
+						<p>使用合作账户登录</p>
+						<a href=" https://graph.qq.com/oauth2.0/authorize?response_type=code&client_id=101183928&redirect_uri=http://www.flnet.com/Account/QQCallback&state=7663c315a950470bb6e4bb7990e1c88b&scope=get_user_info,add_share,list_album,upload_pic,check_page_fans,add_t,add_pic_t,del_t,get_repost_list,get_info,get_other_info,get_fanslist,get_idolist,add_idol,del_idol,add_one_blog,add_topic,get_tenpay_addr ">
+							<img src="http://static.flnet.com/Content/images/mycenter/icon_qq.png?v=3.0.0"/>
+						</a>
+						<a href="https://api.weibo.com:443/oauth2/authorize?client_id=3794589394&redirect_uri=http%3A%2F%2Fwww.flnet.com%2FAccount%2FSinaLoginCallBack&response_type=code&display=default"><img src="http://static.flnet.com/Content/images/mycenter/icon_wb.png?v=3.0.0"/></a>
+						<a href="https://open.weixin.qq.com/connect/qrconnect?appid=wx94b57d485e010742&redirect_uri=http://www.flnet.com/Account/WXCallback&response_type=code&scope=snsapi_login&state=7663c315a950470bb6e4bb7990e1c88b#wechat_redirect"><img src="http://static.flnet.com/Content/images/mycenter/icon_wx.png?v=3.0.0" alt="" /></a>
+						<a href="https://mapi.alipay.com/gateway.do?&_input_charset=utf-8&partner=2088901492267804&return_url=http://www.flnet.com/Account/AliCallback&service=alipay.auth.authorize&target_service=user.auth.quick.login&sign=3e5e43480e769105cdeebf40e2bef97c&sign_type=MD5"><img src="http://static.flnet.com/Content/images/mycenter/icon_zfb.png?v=3.0.0"/></a>
+					</div>
+					
+					
+				</form>
+			</div>
+			
+		</div>
+		<!------------------footer------------->
+		<footer>
+			<div class="footer-links">
+				<a href="">常见问题</a>
+				<a href="">法律说明</a>
+				<a href="">联系客服</a>
+				<a href="">新闻中心</a>
+				<a href="">意见箱</a>
+			</div>
+			<p>增值电信业务经营许可证：粤B2-20130551 | 网站备案：<a href="" >粤ICP备14036938</a></p>
+			<p>Copyright © 2009-2017 深圳市理约云信息管理有限公司.All Rights Reserved</p>
+			<p>服务电话：0371-89908401   邮箱：service@flnet.com</p>
+			<div class="footer-pic">
+				<a href=""><img src="img/bottom_large_img.png"/></a>
+				<a href=""><img src="img/govIcon.gif"/></a>
+				<a href=""><img src="img/cnnic.png"/></a>
+			</div>
+		</footer>
+		
+		
+	</body>
+</html>
